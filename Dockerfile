@@ -4,7 +4,7 @@ WORKDIR /app
 RUN apk --no-cache -q add \
     python3 python3-dev py3-pip libffi libffi-dev musl-dev gcc
 RUN pip3 install -q --ignore-installed distlib pipenv
-    /app/venv/bin/python3 -m pip install --upgrade pip
+
 RUN python3 -m venv /app/venv
 
 ENV PATH="/app/venv/bin:$PATH" VIRTUAL_ENV="/app/venv"
