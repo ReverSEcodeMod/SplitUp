@@ -1,6 +1,6 @@
 {
-    "name": "Telegram Leecher",
-    "description": "A Telegram Leecher based on Pyrogram",
+    "name": "Telegram Split Uploader",
+    "description": "A Telegram Split Uploaderbot based on Pyrogram",
     "keywords": [
       "telegram",
       "pyrogram",
@@ -8,8 +8,8 @@
       "3",
       "leecher"
     ],
-    "website": "https://github.com/azamaulanaaa/botkaca",
-    "repository": "https://github.com/azamaulanaaa/botkaca",
+    "website": "https://github.com/ReverSEcodeMod/SplitUp",
+    "repository": "https://github.com/ReverSEcodeMod/SplitUp",
     "env": {
       "API_ID": {
         "description": "get this value from https://my.telegram.org",
